@@ -1,13 +1,15 @@
 .wrapper {
-  display: flex;
+  display:flex;
 }
 
-.side-bar {
+.side_bar {
   background-color: #253141;
   width: 300px;
   height: 100vh;
 }
-
+.main_chat{
+  width:calc(100vw - 300px);
+}
 .side-bar-header {
   height: 100px;
   padding: 0 20px;
@@ -130,8 +132,8 @@
 
 .form-input {
   background-color: white;
-  width: 100%;
   display: flex;
+  width: 100%;
 }
 
 .form-message {
